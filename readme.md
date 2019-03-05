@@ -25,7 +25,7 @@ composer require ttek/tks-util
 Or add the following to your composer.json file:
 
 ```json
-"ttek/tks-util": "~2.0"
+"ttek/tks-util": "~1.0"
 ```
 
 If you do not use Composer, you can grab the code from GitHub, and use any
