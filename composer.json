@@ -1,0 +1,31 @@
+{
+    "name": "ttek/tks-utils",
+    "type": "library",
+    "description": "Tropotek Symfony Utilities, Tools, Helpers",
+    "keywords": ["tropotek", "utils", "ttek"],
+    "homepage": "https://www.tropotek.com",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Tropotek",
+            "email": "info@ttropotek.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Tk\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "require-dev": {
+    },
+    "require": {
+        "php": "^7.2"
+    }
+}
